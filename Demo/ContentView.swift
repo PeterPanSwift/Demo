@@ -16,6 +16,8 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity) // 讓背景填滿整個畫面
+        .background(Color.red) // 設定背景為紅色
     }
 }
 
