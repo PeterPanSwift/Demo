@@ -17,7 +17,7 @@ struct ContentView: View {
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity) // 讓背景填滿整個畫面
-        .background(Color.red) // 設定背景為紅色
+        .background(Color.green) // 設定背景為綠色
     }
 }
 
